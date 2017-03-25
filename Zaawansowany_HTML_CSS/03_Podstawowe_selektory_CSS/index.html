@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CodersLab</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!--Zadanie 1. Proste selektory  
+Otwórz link przygotowany w serwisie  [JSFiddle](http://jsfiddle.net/CodersLab/qtba6fkg).
+
+Ustaw kolor tła (użyj atrybutu ```background```) dla następujących elementów:
+
+* wszystkich **paragrafów** na czerwony,
+* **paragrafu** o **id** ```inny``` na niebieski,
+* wszystkich elementów o **klasie** ```blog``` na beżowy,
+* wszystkich **paragrafów** należących do **diva** o **klasie** ```blog``` na różowy,
+* **paragrafy** będące bezpośrednimi dziećmi **diva** o **id** ```rodzic``` na zielony,
+* **paragrafy** będące potomkami **diva** o **id** ```rodzic``` na niebieski,
+* **paragrafy** znajdujące się bezpośrednio po **divie** o **id** ```other``` na brązowy,
+* **paragrafy** znajdujące się po **divie** o **id** ```other``` na fioletowy.-->
+
+<div class="contener-text">
+    <span>Jestem elementem span</span>
+    <p>Jestem elementem p </p>
+    <div class="blog">
+        Jestem elementem div
+        <p>
+            Jestem elementem p w blog
+        </p>
+
+         <p>
+            Jestem elementem p w blog
+        </p>
+    </div>
+    <p>Jestem elementem p</p>
+    <div class="blog">Jestem elementem div </div>
+    <p id="inny">Jestem elementem p</p>
+    <p>Jestem elementem p</p>
+
+    <div id="rodzic">
+        <p>
+            Jestem elementem p
+            <span>Jestem elementem span</span>
+        </p>
+        <p>
+            Jestem elementem p
+            <span>Jestem elementem span</span>
+        </p>
+        <p>
+            Jestem elementem p
+            <span>Jestem elementem span</span>
+        </p>
+
+        <div>
+            Div element
+            <p>
+                Jestem elementem p
+                <span>Jestem elementem span</span>
+            </p>
+        </div>
+    </div>
+
+
+    <div class="section-panel">
+        <div id="other">
+            <p>Jestem elementem p</p>
+            <p>Jestem elementem p</p>
+            <div>
+                Div element
+                <p>
+                    Jestem elementem p
+                    <span>Jestem elementem span</span>
+                </p>
+            </div>
+        </div>
+
+        <p>Jestem elementem p</p>
+    </div>
+
+</div>
+    
+  <!--Zadanie 2. Łączenie selektorów
+Otwórz link przygotowany w serwisie  [JSFiddle](http://jsfiddle.net/CodersLab/7pr6qk93/).
+
+Ustaw kolor tła (użyj atrybutu **background**) następujących elementów:
+
+* wszystkim nagłówkom (od **h1** do **h5**) na zielony (połącz selektory, żeby zrobić to jedną regułą CSS),
+* **div** o **klasie** ```black``` i ```white``` na kolor szary,
+* wszystkie **divy** o klasie ```important``` na kolor zielony (uważaj, żeby nie zmienić koloru tła **paragrafom** o tej samej **klasie**),
+* wszystkie elementy, które znajdują się w wszystkich **divach**, na kolor niebieski.-->  
+    
+    <h1>Header 1 </h1>
+    <h2>Header 2 </h2>
+    <h3>Header 3 </h3>
+    <h4>Header 4 </h4>
+    <h5>Header 5 </h5>
+
+<div class="white"> 
+    Jakiś tekst
+    <div class="important">To jest div important </div>
+    <p class="important"> To jest paragraf important </p>
+</div>
+
+<div class="black"> 
+    Jakiś tekst 2
+    <div class="important">To jest div important </div>
+    <p class="important"> To jest paragraf important </p>
+</div>
+    
+
+<!--Zadanie 3. Wybieranie po atrybutach
+Otwórz link przygotowany w serwisie  [JSFiddle](http://JSFiddle.net/CodersLab/41Lk25nh/).
+
+Ustaw kolor tła (użyj atrybutu **background**) następujących elementów:
+
+* wszystkie elementy, które mają atrybut **type** nastawiony na ```submit```, na niebiesko,
+* wszystkie elementy, których atrybut **type** zawiera słowo ```email```, na zielono,
+* wszystkie elementy, które mają **klasę**  ```important```, na czerwono (użyj selektora atrybutu a nie klasy!),
+* wszystkie elementy, które mają **klasę**  ```important``` jako pierwszą, na różowo.-->
+  
+<form>
+    <label class="main-width">Podaj swój email *</label>
+    <input type="email" name="email" />
+
+    <input type="submit" name="send" value="Wyślij" />
+    <div>
+        <span class="important main-width">Wazne</span>
+        <span class="user-panel important main-width">Wazne</span>
+    </div>http://jsfiddle.net/CodersLab/41Lk25nh/#run
+</form>
+    
+<!--Zadanie dodatkowe  
+Poćwicz selektory na tej stronie (pierwsze 14 lekcji):
+[flukeout.github.io](http://flukeout.github.io/ )-->
+</body>
+</html>

@@ -1,0 +1,108 @@
+div#button {
+    border: 1px dashed red;
+    width: 400px;
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+div#button:hover {
+    background-color: blue;
+    border-radius: 50%;
+}
+
+div#button:active {
+    background-color: white;
+    box-shadow: 10px 10px 0 10px rgba(0, 0, 255, .2);
+}
+div#button > p {
+    text-align: center;
+    margin: 20%;
+}
+
+a:link {
+    text-decoration: none;
+    background-color: yellow;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+a:visited {
+    text-decoration: none;
+    background-color: grey;
+    border-radius: 30px;
+}
+a:hover {
+    text-decoration: none;
+    background-color: green;
+    border-radius: 30px;
+}
+/* Aby pokazać zadanie 3 dodałem trochę stylowania w celu indywidualizacji niektórych elementów*/
+#navigation {
+  width: 75px;
+  list-style-type: none; 
+  margin-top: 20px;
+}
+ul#navigation > li {
+  margin-bottom: 20px;
+   background-color: skyblue;
+}
+ul#navigation > li:first-child {
+  border-radius: 20px 0 0 20px;
+}
+ul#navigation > li:last-child {
+  border-radius: 0 20px 20px 0;  
+}
+div#zebra > p:nth-child(2n+1) {
+  background-color: grey;
+}
+div#other > div:first-child {
+  background-color: green;
+}
+div#other > div:last-child {
+  background-color: grey;  
+}
+div#from_end > div:nth-child(2n+3) {
+  background-color: orange;  
+}
+#image {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-top: 50px;
+}
+#comment {
+    margin-top: 50px;
+    width: 400px;
+    height: 50px;
+    float: left;
+    border: 1px solid grey;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 1px 1px 2px 1px lightgrey; 
+
+}
+#comment p {
+    vertical-align: middle;
+    text-align: left;
+    margin-left: 20px;
+    font-size: 15px;
+}
+table {
+    clear: both;
+    border: 1px solid black;
+}
+td, th {
+    border: 1px solid black; 
+}
+thead:first-child {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+tbody > tr:nth-child(2n+1) {
+    background-color: skyblue;
+}
+tr:nth-child(2n) {
+    background-color: cadetblue;
+}
+td:hover {
+   color: red;
+}

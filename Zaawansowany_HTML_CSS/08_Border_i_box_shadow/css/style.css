@@ -1,0 +1,39 @@
+#elipsa {
+    height: 200px;
+    width: 500px;
+    border: 1px solid green;
+    border-radius: 50%;
+    background-color: green;
+    margin-bottom: 20px;
+}
+#kolo {
+    height: 200px;
+    width: 200px;
+    border: 1px solid green;
+    border-radius: 50%;
+    background-color: green;
+    margin-bottom: 20px;
+    
+}
+#limonka {
+    height: 200px;
+    width: 200px;
+    border: 1px solid green;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    background-color: green;
+    margin-bottom: 20px;
+}
+p {
+    text-align: center;
+    vertical-align: middle;
+    
+}
+#shadow {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    box-shadow: 0 0 0 5px red, 0 -10px 20px 10px blue, 0 10px 0 10px rgba(255,0,0, .15), 10px 10px 0 15px black;
+
+}
+

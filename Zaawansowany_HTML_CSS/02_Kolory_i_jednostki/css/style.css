@@ -1,0 +1,14 @@
+html {
+    font-size: 10px;
+}
+div {
+    font-size:20px;
+    width: 50%;
+    background-image: linear-gradient(45deg, blue, red);
+}
+p {
+    font-size: 2em;
+    width: 50%;
+    background-color: grey;
+}
+/*Jeżeli używam pikseli w elemencie rodzica - parent i elemencie potomka - child, wielkość czcionki w elemencie potomka nadpisuje tą wartośc z elementu rodzica. Jeśli użyję jednostek em w elemencie potomka - wielkość czcionki elementu potomka uzależniona jest od wielkości elementu rodzica - czyli 1em = 20px itd. Dla jednostek rem jest sytuacja podobna z tym, że wielkość wszystkich potomków jest uzależniona od elementu root - html.*/

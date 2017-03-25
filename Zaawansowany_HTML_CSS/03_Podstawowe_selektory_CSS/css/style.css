@@ -1,0 +1,46 @@
+p {
+  background-color: red;
+ }
+ p#inny {
+   background-color: blue; 
+ }
+ .blog {
+   background-color: #d7a170;
+ }
+ div#rodzic > p {
+   background-color: green;
+ }
+ div#rodzic  p {
+   background-color: blue;
+ }
+ div#other + p {
+   background-color: brown;
+ }
+ div#other ~ p {
+   background-color: violet;
+ }
+h1, h2, h3, h4, h5, h6 {
+  background-color: green;
+}
+div.white, div.black {
+  background-color: grey;
+}
+div.important {
+  background-color: green;
+}
+div * {
+  background-color: blue;
+}
+input[type="submit"] {
+  background-color: blue;
+}
+input[type*="email"]
+  {
+    background-color: green;
+  }
+  span[class*="important"] {
+    background-color: red;
+  }
+   span[class^="important"] {
+    background-color: pink;
+  }

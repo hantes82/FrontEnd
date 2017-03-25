@@ -1,0 +1,103 @@
+.areaBlackStripe {
+    width: 100%;
+    background-color: black;
+    margin: 3px 3px 3px 3px;
+
+}
+
+.areaBlackStripe:after {
+    clear: both;
+    display: block;
+    content: ' ';
+}
+
+.areaBlack {
+    width: 1200px;
+    height: 60px;
+    margin-left: 15%;
+    background-color: black;
+
+}
+
+.areaWhite {
+    width: 70%;
+    height: 100px;
+    margin-left: 15%;
+    background-color: white;
+
+}
+.areaWhiteStripe {
+    width: 100%;
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+    margin: 3px 3px 3px 3px;
+  
+}
+
+.areaWhiteStripe:after {
+    clear: both;
+    display: block;
+    content: ' ';
+}
+
+h1 {
+    float: left;
+    font-family: Arial, sans-serif;
+    margin: 10px 0 0 0;
+    color: white;
+}
+
+ul {
+    float: right;
+    color: white;
+    margin: 20px 0 0 0;
+}
+
+li {
+    display: inline;
+    margin: auto;
+    margin-left: 10px;
+}
+
+.blackBox {
+    float: left;
+    width: 50%;
+    height: 400px;
+    background-color: black;
+    margin-right: 20px;
+    
+}
+h2 {
+    font-family: Arial, sans-serif;
+    margin: 5px 5px 20px 5px;
+
+}
+p {
+   
+    display: inline;
+    width: 40%;
+    height: 400px;
+    font-size: 20px;
+
+}
+.whiteBox {
+    float: left;
+    width: 380px;
+    height: 400px;
+    background-color: white;
+    margin: 20px 10px 20px 10px;
+    
+}
+.leftFooter {
+    float: left;
+}
+.rightFooter {
+    float: right;
+}
+.areaWhiteFooter {
+    width: 70%;
+    height: 30px;
+    margin-left: 15%;
+    background-color: white;
+
+}

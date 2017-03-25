@@ -1,0 +1,24 @@
+p {
+    font-size: 12px !important;
+}
+p {
+    font-size: 40px;
+}
+#first {
+    font-size: 20px;
+}
+#second {
+    font-size: 10px;
+}
+.col {
+    background-color: yellow;
+}
+#identyfikator {
+    background-color: red;
+}
+div {
+    background-color: blue;
+}
+.klasa {
+    background-color: green;
+}
