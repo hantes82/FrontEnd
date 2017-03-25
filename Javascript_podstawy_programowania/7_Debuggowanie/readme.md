@@ -1,0 +1,6 @@
+# Debuggowanie  &ndash; zadania
+
+Pamiętaj, żeby oddzielać ćwiczenia komentarzami i pisać czytelny, dobrze sformatowany kod.
+
+#### Zadania
+W plikach **zadanie01.js** i **zadanie02.js**  znajdziesz niedziałający kod. Twoim zadaniem jest znalezienie błędów. Wykorzystaj zdobytą wiedzę i użyj znanego Ci narzędzia do debuggowania.
