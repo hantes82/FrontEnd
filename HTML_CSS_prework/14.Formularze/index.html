@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>HTML / CSS - Formularze</title>
+        <style>
+            #p_grey {
+                font-size: 30px;
+                font-weight: bold;
+                color: grey;
+                margin: 0;
+            }
+            #form1 {
+                width: 50%;
+                line-height: 20px;
+            }
+            #form2 {
+                color: grey;
+                font-size: 20px;
+                display: inline;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <label><p id="p_grey">Your Name:</p>
+                <input id="form1" type="text" name="name" placeholder="Your name">
+            </label>
+           <label><p id="p_grey">Your E-mail Address:</p>
+                <input id="form1" type="email" name="email" placeholder="Your e-mail">
+            </label>
+           <label><p id="p_grey">Your message:</p>
+                <textarea id="form1" rows="10" placeholder="Please describe your question or comment"></textarea><br/>
+            </label>
+            <input type="button" value="Send" style="width: 120px">
+        </form>
+        <br/>
+        <br/>
+        <form>
+            <legend><h1>Run your intelligent robo-car</h1></legend>
+            <h2>Select Country:</h2>
+            <label><p id="form2">Poland</p>
+                <input type="checkbox" name="country" value="" checked>
+            </label>
+            <label><p id="form2">U.S.</p>
+                <input  type="checkbox" name="country" value="">
+            </label>
+            <label><p id="form2">San Marino</p>
+                <input type="checkbox" name="country" value="">
+            </label>
+            <h2>Select Car:</h2>
+            <label><p id="form2">BMW</p>
+                <input type="radio" name="car" value="">
+            </label>    
+            <label><p id="form2">Jaguar</p>
+                <input type="radio" name="car" value="">
+            </label>
+             <h2>When?:</h2>
+            <label><p id="form2">Date:</p>
+                <input type="date" name="date" value="dd.mm.rrrr">
+            </label>
+            <h2>Start engine.</h2>
+            <label><p id="form2">Enter password*:</p>
+                <input type="password" name="password"><br/>
+                <input type="button" name="button"  style="width: 120px; margin-top: 20px" value="RUN YOUR CAR"> 
+            </label>
+        </form>
+        
+        
+    </body>
+</html>

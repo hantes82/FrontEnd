@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Kolory i jednostki w CSS</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+    <!--1. Stwórz dwa elementy span i nadaj im różne kolory za pomocą słów kluczowych.-->
+
+        <span id="span1">Phasellus ac turpis at sapien. Vestibulum nibh. Fusce quam auctor metus.</span> Sed ac augue. Pellentesque mollis nulla luctus et arcu. Maecenas nec nunc vel urna mauris, interdum eu, elit. Nam urna. Nunc felis. Nullam aliquet congue eu, magna. Nulla facilisi. Vestibulum ante at fermentum lobortis venenatis, elit aliquet eu, leo. Sed scelerisque tincidunt. Fusce ullamcorper mauris. Nam molestie. Donec faucibus quis, accumsan eget, dapibus imperdiet quis, massa. <span id="span2">Pellentesque dapibus eu, dapibus augue a diam. Pellentesque sodales wisi a nisl. Etiam nibh risus, euismod orci luctus sagittis. Aliquam in magna purus, vehicula libero adipiscing iaculis. Sed ornare quam.</span>
+        <br/>
+        <br/>
+        <!--2. Stwórz paragraf z następującym tekstem: „CSS jest wspaniały” i ostyluj każde słowo  innym kolorem używając słów kluczowych lub szesnastkowych. Podpowiedź (Każde słowo może być w osobnym elemencie span)-->
+        <p><span id="span1">CSS</span><span id="span2"> jest</span> <span id="span3">wspaniały</span></p>
+        <br/>
+        <br/>
+        <!--3. Stwórz dwa elementy div, wpisz do nich jakiś tekst i ustaw im tło używając kolorów w zapisie szesnastkowym (możesz pobrać kolory w zapisie hex ze strony: [Color-hex](http://www.color-hex.com/) )-->
+        <div id="div1_bcolor"><p>Etiam varius nec, aliquam iaculis lectus. Mauris leo. Aenean pede eget risus.</p></div>
+        <div id="div2_bcolor"><p>Aenean pellentesque accumsan. Proin sem.</p></div>
+        <br/>
+        <br/>
+        <!--4. Zmień kolor, stworzonym w poprzednim zadaniu elementom div używając zapisu rgba, ustaw przezroczystość na 0.25 (kolory w zapisie rgb możesz pobrać również ze strony [Color-hex](http://www.color-hex.com/) )
+-->
+         <div id="div3_bcolor"><p>Etiam varius nec, aliquam iaculis lectus. Mauris leo. Aenean pede eget risus.</p></div>
+        <div id="div4_bcolor"><p>Aenean pellentesque accumsan. Proin sem.</p></div>
+        <br/>
+        <br/>
+        <!--5. Stwórz element div, nadaj mu odpowiednią klasę i ustaw mu kolor za pomocą hsla (możesz pobrać kolor w zapisie hsl ze strony [Color-hex](http://www.color-hex.com/) )
+-->
+        <div class="div_class"></div>
+        <br/>
+        <br/>
+        <!--6. Stwórz element div, umieść w nim 2 paragrafy z dowolnym tekstem. W CSS ustaw dowolny kolor tła dla całego kontenera i ustaw jego szerokość na 200px (width) -->
+
+        <div class="point6">
+            <p id="p1">Cum sociis natoque penatibus et felis eget lectus. Phasellus metus sem, rutrum nulla, faucibus sem nunc, luctus et risus dictum tempus, urna accumsan interdum. Proin sodales. Vivamus elit eu urna.</p>
+            <p id="p2">Quisque urna. Nunc molestie vitae, commodo a, urna. Nunc id nisl. Curabitur tincidunt congue. Proin ornare vel, adipiscing aliquet ultrices posuere, odio. Etiam ac lacus. Vivamus elit nibh, interdum eu.</p>
+            <!-- jednostka relatywna em jest zależna od wielkości elementu nadrzędnego. Jeżeli wielkść czcionki elementu nadrzędnego - w tym przypadku diva o klasie: point6 będzie wielkości np. 10px, to wielkość 1em to będzie właśnie to 10px, 2em = 20px itd.-->
+        </div>
+    </body>
+</html>

@@ -1,0 +1,39 @@
+#span1 {
+        color: red;
+}
+#span2 {
+        color: skyblue;
+}
+#span3 {
+        color: #542ab0;
+}
+#div1_bcolor {
+        background-color: #c3bcfd;
+}
+#div2_bcolor {
+        background-color: #3fcb62;
+}
+#div3_bcolor {
+        background-color: rgba(34,189,121, .25);
+}
+#div4_bcolor {
+        background-color: rgba(84,42,176, .25);
+}
+.div_class {
+        background-color: hsla(100,60%,50%, .75);
+        border: 1px solid black;
+        width: 150px;
+        height: 150px;
+}
+.point6 {
+        background-color: rgba(34,189,121, .25);
+        width: 200px;
+}
+#p1 {
+    background-color: antiquewhite;
+    width: 50%;
+}
+#p2 {
+    background-color: rgb(185,57,52);
+    width: 20%;
+}

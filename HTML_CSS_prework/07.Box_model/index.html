@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Box model</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+    <!--1. Stwórz w pliku index.html link (odnośnik). Ustaw, dla niego następujące style (w pliku style.css):
+  color: red;  border-color: red; width: 500px;  
+  **Pamiętaj o dodaniu pliku style.css do index.html.** Co się stało? Czy Twój link ma 500px szerokości?  
+Jakiego rodzaju elementem jest link  - inlinowy czy blokowy? Opisz swoje spostrzeżenia w komentarzu w pliku HTML.-->
+        
+        <a href="http://coderslab.pl">Link do Coders Lab - Link do Coders Lab - Link do Coders Lab - Link do Coders Lab - Link do Coders Lab - Link do Coders Lab</a>
+    <!--2. W pliku index.html dodaj kolejny element - p. Ustaw takie same style dla niego. Co się dzieje tym razem? Opisz swoje spostrzeżenia w komentarzu w pliku HTML.-->
+        <p>Lorem ipsum dolor sit amet dignissim dapibus aliquam. Etiam varius, leo. Sed fringilla condimentum, urna eu sem et est eu nunc libero, accumsan vitae, ligula. Duis vel leo. Suspendisse potenti. Quisque iaculis, purus consectetuer adipiscing felis laoreet sit amet erat. Quisque orci. In lobortis diam. Aliquam vestibulum et, imperdiet purus in nonummy sagittis. Nullam aliquet, purus feugiat congue, lacus nulla massa, feugiat eget, bibendum sem, accumsan vestibulum. Nunc justo. Donec nec erat volutpat. Phasellus vestibulum iaculis. Proin sodales. Phasellus id dui. Morbi cursus ligula sit amet, libero. Pellentesque habitant morbi tristique interdum. Etiam accumsan dictum, laoreet metus in orci luctus.</p>
+    
+    <!--Element liniowy jakim jest <a> nie zmieia szerokości pomimo ustawienia w css na 500px, natomiast element blokowy <p> daje się ograniczyć do 500px-->
+    
+    
+        <table border="2px">
+            <thead>
+                <tr>
+                    <th scope="col">Name of element</th>
+                    <th scope="col">Type</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>a</td>
+                    <td>inline</td>
+                </tr>
+                <tr>
+                    <td>p</td>
+                    <td>block</td>
+                </tr>
+                <tr>
+                    <td>h1, h2, h3</td>
+                    <td>block</td>
+                </tr>
+                <tr>
+                    <td>div</td>
+                    <td>block</td>
+                </tr>
+                <tr>
+                    <td>span</td>
+                    <td>inline</td>
+                </tr>
+                <tr>
+                    <td>em, strong, u</td>
+                    <td>inline</td>
+                </tr>
+                <tr>
+                    <td>ul and ol</td>
+                    <td>block</td>
+                </tr>
+                <tr>
+                    <td>table</td>
+                    <td>block</td>
+                </tr>
+                <tr>
+                    <td>img</td>
+                    <td>inline</td>
+                </tr>
+                <tr>
+                    <td>iframe</td>
+                    <td>inline</td>
+                </tr>
+            </tbody>
+        </table>
+    
+    </body>
+    
+    
+    
+    
+    
+</html>

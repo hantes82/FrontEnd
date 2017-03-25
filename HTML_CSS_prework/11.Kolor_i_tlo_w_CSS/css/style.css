@@ -1,0 +1,34 @@
+div {
+   /*   background-color: #CC8939;
+        background-color: rgba(204,137,57, .4); 
+        opacity: .4; 
+        background-image: radial-gradient(circle,skyblue,white); */
+        background-image: -webkit-radial-gradient(center, ellipse cover, rgba(117,189,209,1) 0%, rgba(117,189,209,1) 14%, rgba(117,189,209,1) 46%, rgba(129,196,214,1) 74%, rgba(147,206,222,1) 86%, rgba(147,206,222,1) 86%, rgba(147,206,222,1) 100%);
+}
+
+#image_bgd {
+    border: 1px solid black;
+    background-color: red;
+    background-image: url("http://68.media.tumblr.com/6dc77a7d3bee17bedcd28bc44b193173/tumblr_oihkewhnuT1sfie3io1_1280.jpg");
+    height: 200px;
+    width: 200px; 
+}
+
+#image_block {
+    border: 1px solid black;
+    background-color: grey;
+    background-image: url("http://kaboompics.com/files/upload/o_1b478f1rp1021n2i1si0fcoh3m7_new.jpg");
+    height: 200px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+#image_center {
+    border: 1px solid black;
+    background-color: grey;
+    background-image: url("http://kaboompics.com/files/upload/o_1b478f1rp1021n2i1si0fcoh3m7_new.jpg");
+    height: 200px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}

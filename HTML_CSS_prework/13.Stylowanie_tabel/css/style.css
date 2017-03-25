@@ -1,0 +1,13 @@
+th {
+    
+    background-color:cornflowerblue;
+    color: white;
+    font-weight: bold;
+}
+table {
+     border-collapse: separate;
+    border-spacing: 5px;
+}
+#border_coll {
+    border-collapse: collapse;
+}

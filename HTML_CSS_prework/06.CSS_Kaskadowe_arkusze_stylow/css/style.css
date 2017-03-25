@@ -1,0 +1,18 @@
+body {
+    background-color: skyblue;
+}
+
+#zielony {
+    color: green;
+}
+#fioletowy {
+    color: violet;
+}
+.brazowy {
+    color: saddlebrown;
+}
+.block {
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+}
